@@ -2,6 +2,7 @@ boardrules
 ==========
 
 Dutch Translation of Board Rules Extension By Exreaction
+Versie 1.0.0.-b2
 
 Installatie
 ===========
