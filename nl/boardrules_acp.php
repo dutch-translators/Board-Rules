@@ -45,6 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARDRULES_ENABLE'					=> 'Forumregels inschakelen',
 	'ACP_BOARDRULES_HEADER_LINK'			=> 'Weergeeft de forumregels-link weer in de kop',
 	'ACP_BOARDRULES_AT_REGISTRATION'		=> 'Vereist nieuwe gebruikers om de regels te accepteren bij registratie',
+	'ACP_BOARDRULES_AT_REGISTRATION_EXPLAIN'        => 'Deze optie zal een clausule toevoegen aan de “Voorwaarden”, die vereist dat nieuw geregistreerde gebruikers de forumregels lezen en accepteren tijdens registratie.',	
 	'ACP_BOARDRULES_NOTIFY'					=> 'Notificeer gebruikers',
 	'ACP_BOARDRULES_NOTIFY_EXPLAIN'			=> 'Verstuurd een notificatie naar alle geregistreerde gebruikers dat de forumregels zijn bijgewerkt. (Dit kan enkele secondes in beslag nemen om te voltooien bij forums met duizenden gebruikers.)',
 	'ACP_BOARDRULES_NOTIFY_CONFIRM'			=> 'Weet je zeker dat je notificaties wilt versturen naar alle gebruikers?',
