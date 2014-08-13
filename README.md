@@ -1,8 +1,8 @@
 boardrules
 ==========
 
-Dutch Translation of Board Rules Extension By Exreaction
-Versie 1.0.0.-b2
+Dutch Translation of Board Rules Extension By phpBB Group
+Versie 1.0.0.-rc1
 
 Installatie
 ===========
