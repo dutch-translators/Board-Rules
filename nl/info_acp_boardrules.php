@@ -38,45 +38,14 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP general langauge
+	// ACP modules
 	'ACP_BOARDRULES'					=> 'Forumregels',
 	'ACP_BOARDRULES_MANAGE'				=> 'Beheer regels',
-	'ACP_BOARDRULES_MANAGE_EXPLAIN'		=> 'Op deze pagina kan je regels en categorieën toevoegen, wijzigen, verwijderen en opnieuw rangschikken. Een categorie is een groep gerelateerde regels. Elke categorie kan een onbeperkt aantal regels bevatten.',
 	'ACP_BOARDRULES_SETTINGS'			=> 'Regelinstellingen',
-	'ACP_BOARDRULES_SETTINGS_EXPLAIN'	=> 'Hier kan je de hoofdinstellingen voor de forumregels instellen.',
 
-	// ACP rule settings form language
-	'ACP_BOARDRULES_CATEGORY'				=> 'Regelcategorie',
-	'ACP_BOARDRULES_ENABLE'					=> 'Forumregels inschakelen',
-	'ACP_BOARDRULES_HEADER_LINK'			=> 'Weergeeft de forumregels-link weer in de kop',
-	'ACP_BOARDRULES_AT_REGISTRATION'		=> 'Vereist nieuwe gebruikers om de regels te accepteren bij registratie',
-	'ACP_BOARDRULES_AT_REGISTRATION_EXPLAIN'=> 'Deze optie zal een clausule toevoegen aan de “Voorwaarden”, die vereist dat nieuw geregistreerde gebruikers de forumregels lezen en accepteren tijdens registratie.',
-	'ACP_BOARDRULES_RULE'					=> 'Regel',
-	'ACP_BOARDRULES_SELECT_LANGUAGE'		=> 'Selecteer taal',
-	'ACP_BOARDRULES_SETTINGS_CHANGED'		=> 'Forumregels-instellingen veranderd.',
-	'ACP_BOARDRULES_NOTIFY'					=> 'Notificeer gebruikers',
-	'ACP_BOARDRULES_NOTIFY_EXPLAIN'			=> 'Verstuurd een notificatie naar alle geregistreerde gebruikers dat de forumregels zijn bijgewerkt. (Dit kan enkele secondes in beslag nemen om te voltooien bij forums met duizenden gebruikers.)',
-	'ACP_BOARDRULES_NOTIFY_CONFIRM'			=> 'Weet je zeker dat je notificaties wilt versturen naar alle gebruikers?',
+	// ACP Logs
+	'ACP_BOARDRULES_SETTINGS_LOG'	        => '<strong>Forumregels instellingen veranderd</strong>',	
 	'ACP_BOARDRULES_NOTIFY_LOG'				=> '<strong>Forumregels-notificatie verstuurd naar alle gebruikers</strong>',
 
-	// ACP rule add/edit form language
-	'ACP_BOARDRULES_CREATE_RULE'			=> 'Aanmaken regel',
-	'ACP_BOARDRULES_CREATE_RULE_EXPLAIN'	=> 'Door het formulier hieronder te gebruiken, kan je een nieuwe regel aanmaken, welke weergegeven zal worden aan je gebruikers.',
-	'ACP_BOARDRULES_EDIT_RULE'				=> 'Wijzig regel',
-	'ACP_BOARDRULES_EDIT_RULE_EXPLAIN'		=> 'Door het formulier hieronder te gebruiken, kan je een bestaande regel wijzigen, welke weergegeven zal worden aan je gebruikers.',
-	'ACP_RULE_SETTINGS'						=> 'Regelinstelling',
-	'ACP_RULE_TITLE'						=> 'Regeltitel',
-	'ACP_RULE_TITLE_EXPLAIN'				=> 'Regeltitels worden alleen weergegeven op de regelspagina voor de regelcategorie. Regeltitels worden ook gebruikt om je regels te identificeren wanneer je ze beheert in het ACP.',
-	'ACP_RULE_ANCHOR'						=> 'Regelanker',
-	'ACP_RULE_ANCHOR_EXPLAIN'				=> 'Regelankers zijn optioneel en worden gebruikt als link ankerpunten op de regelspagina. Ze moeten URL vriendelijk zijn (geen spaties of speciale tekens bevatten) en moeten beginnen met een letter.',
-	'ACP_RULE_MESSAGE'						=> 'Regelbericht',
-	'ACP_RULE_MESSAGE_EXPLAIN'				=> 'Het regelbericht wordt weergegeven op de regelspagina voor iedere regel (categorieën geven geen regelberict weer).',
 
-	// ACP rule management language
-	'ACP_ADD_RULE'				=> 'Nieuwe regel aanmaken',
-	'ACP_DELETE_RULE_CONFIRM'	=> 'Weet je zeker dat je deze regel wilt verwijderen?',
-	'ACP_RULE_ADDED'			=> 'Regel succesvol toegevoegd.',
-	'ACP_RULE_DELETED'			=> 'Regel succesvol Verwijderd.',
-	'ACP_RULE_EDITED'			=> 'Regel succesvol gewijzigd.',
-	'ACP_RULE_TITLE_EMPTY'		=> 'Je moet een titel invullen voor deze regel.',
 ));
