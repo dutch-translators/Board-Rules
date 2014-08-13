@@ -2,8 +2,9 @@
 /**
 *
 * Board Rules extension for the phpBB Forum Software package.
+* [Dutch]
 *
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -38,12 +39,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP modules
-	'ACP_BOARDRULES'					=> 'Forumregels',
-	'ACP_BOARDRULES_MANAGE'				=> 'Beheer regels',
-	'ACP_BOARDRULES_SETTINGS'			=> 'Regelinstellingen',
+	'BOARDRULES_SAMPLE_CATEGORY_TITLE'		=> 'Voorbeeld Regelcategorie',
+	'BOARDRULES_SAMPLE_CATEGORY_MESSAGE'	=> 'Dit is een voorbeeldcategorie in je Forumregels-installatie. Categorieën bevatten groepen gerelateerde regels. Categorieberichten (zoals deze) worden niet weergegeven op de regelspagina.',
+	'BOARDRULES_SAMPLE_CATEGORY_ANCHOR'		=> 'voorbeeld-categorie',
 
-	// ACP Logs
-	'ACP_BOARDRULES_SETTINGS_LOG'	=> '<strong>Forumregel-instellingen veranderd</strong>',
-	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Forumregel-notificaties verstuurd naar alle gebruikers</strong>',
+	'BOARDRULES_SAMPLE_RULE_TITLE'			=> 'Voorbeeld regel',
+	'BOARDRULES_SAMPLE_RULE_MESSAGE'		=> 'Dit is een voorbeeld regel in je Forumregels-installatie. Alles lijkt te werken. Je mag deze regel en categorie wijzigen of verwijderen en doorgaan met het opstellen van je eigen forumregels.',
+	'BOARDRULES_SAMPLE_RULE_ANCHOR'			=> 'voorbeeld-regel',
 ));
