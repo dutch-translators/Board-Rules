@@ -46,6 +46,4 @@ $lang = array_merge($lang, array(
 	// ACP Logs
 	'ACP_BOARDRULES_SETTINGS_LOG'	        => '<strong>Forumregels instellingen veranderd</strong>',	
 	'ACP_BOARDRULES_NOTIFY_LOG'				=> '<strong>Forumregels-notificatie verstuurd naar alle gebruikers</strong>',
-
-
 ));
