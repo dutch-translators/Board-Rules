@@ -52,6 +52,7 @@ $lang = array_merge($lang, array(
 	'EXCEPTION_INVALID_ARGUMENT'	=> 'Ongeldig argument gespecificeerd voor `%1$s`. Reden: %2$s',
 	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Het veld `%1$s` ontvangt data wat buiten zijn bereik ligt',
 	'EXCEPTION_TOO_LONG'			=> 'De invoer was langer dan de maximum lengte.',
+	'EXCEPTION_NOT_UNIQUE'			=> 'De invoer is niet uniek.',
 	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Het veld `%1$s` ontvangt onverwachte data. Reden: %2$s',
 	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'De invoer bevat ongeldige tekens.',
 ));
