@@ -3,7 +3,7 @@
 *
 * Board Rules extension for the phpBB Forum Software package.
 *
-* @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>, Dutch Translators <https://github.com/dutch-translators>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
