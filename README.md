@@ -2,7 +2,6 @@ boardrules
 ==========
 
 Dutch Translation of Board Rules Extension By phpBB Group
-Versie 1.0.0.-rc1
 
 Installatie
 ===========
