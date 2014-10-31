@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BOARDRULES_HEADER'			=> 'Forumregels',
-	'BOARDRULES_EXPLAIN'		=> 'Onderstaande regels zijn samengesteld door de forumbeheerders van %s, de regels gelden voor iedereen die gebruik maakt van dit forum. Onderstaande regels zijn samengesteld om het foruk leuk te houden voor alle leden en bezoekers.',
+	'BOARDRULES_EXPLAIN'		=> 'Onderstaande regels zijn samengesteld door de forumbeheerders van %s, de regels gelden voor iedereen die gebruik maakt van dit forum. Onderstaande regels zijn samengesteld om het forum leuk te houden voor alle leden en bezoekers.',
 	'BOARDRULES_CATEGORIES'		=> 'Regelssectie',
 	'BOARDRULES_CATEGORY_ANCHOR'=> 'sectie-%s',
 	'BOARDRULES_RULE_ANCHOR'	=> 'regel-%s',
