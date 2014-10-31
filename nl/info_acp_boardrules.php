@@ -2,8 +2,9 @@
 /**
 *
 * Board Rules extension for the phpBB Forum Software package.
+* Dutch translation by Dutch Translators (https://github.com/dutch-translators)
 *
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -45,5 +46,5 @@ $lang = array_merge($lang, array(
 
 	// ACP Logs
 	'ACP_BOARDRULES_SETTINGS_LOG'	=> '<strong>Forumregel-instellingen veranderd</strong>',
-	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Forumregel-notificaties verstuurd naar alle gebruikers</strong>',
+	'ACP_BOARDRULES_NOTIFY_LOG'		=> '<strong>Forumregel-notificatie verstuurd naar alle gebruikers</strong>',
 ));
