@@ -2,8 +2,9 @@
 /**
 *
 * Board Rules extension for the phpBB Forum Software package.
+* Dutch translation by Dutch Translators (https://github.com/dutch-translators)
 *
-* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>, Dutch Translators <https://github.com/dutch-translators>
+* @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */
@@ -39,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BOARDRULES_HEADER'			=> 'Forumregels',
-	'BOARDRULES_EXPLAIN'		=> 'Deze regels zijn bijgevoegd om de verschillende verantwoordelijkheden van alle leden hier op %s te verduidelijken. Ze zullen worden toegepast op iedereen om er voor te zorgen dat het forum netjes draait en een leuk en productieve belevenis is voor alle leden en bezoekers.',
+	'BOARDRULES_EXPLAIN'		=> 'Deze regels zijn bijgevoegd om de verschillende verantwoordelijkheden van alle leden hier op %s te verduidelijken. Ze zullen worden toegepast op iedereen om er voor te zorgen dat het forum netjes draait en een leuke en productieve belevenis is voor alle leden en bezoekers.',
 	'BOARDRULES_CATEGORIES'		=> 'Regelssectie',
 	'BOARDRULES_CATEGORY_ANCHOR'=> 'sectie-%s',
 	'BOARDRULES_RULE_ANCHOR'	=> 'regel-%s',
